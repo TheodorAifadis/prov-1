@@ -1,5 +1,5 @@
 function toCaps(arr) {
-    return arr.toUpperCase()
+    return arr.toUpperCase(names)
 }
 
 let names = ['theo', 'anton', 'victor']

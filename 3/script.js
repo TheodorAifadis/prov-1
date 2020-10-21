@@ -1,7 +1,6 @@
-const myArray = ['boll', 'troll', 'koll', 'moll', 'fotboll']
+const myArray = ['boll', 'troll', 'koll', 'volleyboll', 'fotboll']
 
-function changeElement(arr) {
-    arr.push(3)
-}
+myArray[0] = 10
+myArray[4] = 1000
 
-changeElement(myArray)
+console.log(myArray)

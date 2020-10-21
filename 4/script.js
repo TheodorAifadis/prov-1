@@ -1,5 +1,5 @@
 function lastElement(arr) {
-    return arr[3]
+    return arr[arr.length -1]
 }
 
 const players = ['Neymar', 'Jesus', 'Paulista', 'Alisson']

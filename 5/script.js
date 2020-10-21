@@ -1,5 +1,5 @@
-function areaOfTriangle(x, y) {
-    return (x * y)/2
+function areaOfTriangle(base, height) {
+    return (base * height)/2
 }
 
-console.log(areaOfTriangle(1, 1))
+console.log(areaOfTriangle(2, 2))

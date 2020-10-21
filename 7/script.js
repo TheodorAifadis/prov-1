@@ -1,10 +1,8 @@
-function makeCity(city){
-    return city
+function makeCity(cityName) {
+    return {
+        name: cityName,
+        population: 0
+    }    
 }
 
-let city = {
-    name: 'London',
-    population: 0
-}
-
-console.log(makeCity(city))
+console.log(makeCity('Rönninge Salem'))
